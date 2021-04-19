@@ -8,6 +8,6 @@ data class ResultModel (
     val artistName : String,
     val collectionName : String,
     val trackName: String,
-    val artworkUrl30: String,
+    val artworkUrl60: String,
     val trackPrice : String
 ): Parcelable
