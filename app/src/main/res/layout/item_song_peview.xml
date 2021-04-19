@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <TextView
+        android:id="@+id/artistName"
+        android:text="Drake"
+        android:layout_width="0dp"
+        android:maxLines="2"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/trackName"
+        android:text="The Motto (feat. Lil Wayne) [Bonus Track]"
+        android:maxLines="2"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/trackTimeMillis"
+        android:text="3:26"
+        android:gravity="end"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

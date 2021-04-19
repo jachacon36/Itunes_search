@@ -9,5 +9,9 @@ data class ResultModel (
     val collectionName : String,
     val trackName: String,
     val artworkUrl60: String,
-    val trackPrice : String
+    val artworkUrl100: String,
+    val trackTimeMillis: Int,
+    val trackPrice : Double,
+    val collectionPrice: Double,
+    val previewUrl: String
 ): Parcelable
