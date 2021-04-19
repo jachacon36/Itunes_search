@@ -41,7 +41,7 @@ class SearchSongAdapter(val openSongDetail: OpenSongDetail) : RecyclerView.Adapt
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         @SuppressLint("StringFormatMatches")
         fun bindItems(result: ResultModel) {
-            Glide.with(itemView.context).load(result.artworkUrl60).into(itemView.artworkUrl60);
+            Glide.with(itemView.context).load(result.artworkUrl60).placeholder(R.drawable.ic_baseline_image).into(itemView.artworkUrl60);
             itemView.trackName.text = result.trackName
             itemView.artistName.text = result.artistName
             itemView.collectionName.text = result.collectionName

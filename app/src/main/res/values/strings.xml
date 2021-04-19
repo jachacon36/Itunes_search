@@ -3,4 +3,6 @@
     <string name="search">Search</string>
     <string name="error">We could not find a result</string>
     <string name="other_songs">Other songs</string>
+    <string name="network_error">There is no Internet conection</string>
+    <string name="cache">You want to load your last search locally?</string>
 </resources>
